@@ -15,6 +15,7 @@
 		887AE2631CF6E273007484F6 /* evening320.png in Resources */ = {isa = PBXBuildFile; fileRef = 887AE2601CF6E273007484F6 /* evening320.png */; };
 		887AE2641CF6E273007484F6 /* morning320.png in Resources */ = {isa = PBXBuildFile; fileRef = 887AE2611CF6E273007484F6 /* morning320.png */; };
 		887AE2651CF6E273007484F6 /* night320.png in Resources */ = {isa = PBXBuildFile; fileRef = 887AE2621CF6E273007484F6 /* night320.png */; };
+		88C365981CF9BC9300431860 /* title_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C365971CF9BC9300431860 /* title_img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		887AE2601CF6E273007484F6 /* evening320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evening320.png; sourceTree = "<group>"; };
 		887AE2611CF6E273007484F6 /* morning320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morning320.png; sourceTree = "<group>"; };
 		887AE2621CF6E273007484F6 /* night320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night320.png; sourceTree = "<group>"; };
+		88C365971CF9BC9300431860 /* title_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				887AE2601CF6E273007484F6 /* evening320.png */,
 				887AE2611CF6E273007484F6 /* morning320.png */,
 				887AE2621CF6E273007484F6 /* night320.png */,
+				88C365971CF9BC9300431860 /* title_img.png */,
 				887AE2551CF6E211007484F6 /* Assets.xcassets */,
 				887AE2571CF6E211007484F6 /* LaunchScreen.storyboard */,
 				887AE25A1CF6E211007484F6 /* Info.plist */,
@@ -136,6 +139,7 @@
 				887AE2651CF6E273007484F6 /* night320.png in Resources */,
 				887AE2631CF6E273007484F6 /* evening320.png in Resources */,
 				887AE2641CF6E273007484F6 /* morning320.png in Resources */,
+				88C365981CF9BC9300431860 /* title_img.png in Resources */,
 				887AE2541CF6E211007484F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +302,7 @@
 				887AE25F1CF6E211007484F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
