@@ -17,11 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="morning320.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eha-uM-CjC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="morning320.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eha-uM-CjC">
                                 <rect key="frame" x="0.0" y="6" width="320" height="562"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Eha-uM-CjC" secondAttribute="bottom" id="CZ0-Pf-B1K"/>
+                            <constraint firstItem="Eha-uM-CjC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dcN-Aq-0hq"/>
+                            <constraint firstAttribute="trailing" secondItem="Eha-uM-CjC" secondAttribute="trailing" id="gLy-ve-le1"/>
+                            <constraint firstItem="Eha-uM-CjC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ubH-iH-6ri"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MsO-G9-vnI">
                         <barButtonItem key="rightBarButtonItem" title="夕方" id="d2h-r7-CwB">
@@ -47,11 +53,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evening320.png" translatesAutoresizingMaskIntoConstraints="NO" id="s8C-hj-e6a">
-                                <rect key="frame" x="0.0" y="0.0" width="326" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="evening320.png" translatesAutoresizingMaskIntoConstraints="NO" id="s8C-hj-e6a">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s8C-hj-e6a" firstAttribute="leading" secondItem="9dj-EX-1zr" secondAttribute="leading" id="B0C-Gg-EoJ"/>
+                            <constraint firstItem="s8C-hj-e6a" firstAttribute="top" secondItem="9dj-EX-1zr" secondAttribute="top" id="byn-ml-BGe"/>
+                            <constraint firstAttribute="bottom" secondItem="s8C-hj-e6a" secondAttribute="bottom" id="kO6-nw-Qaf"/>
+                            <constraint firstAttribute="trailing" secondItem="s8C-hj-e6a" secondAttribute="trailing" id="qzZ-3k-ixW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EPm-kz-iNC"/>
                 </viewController>
